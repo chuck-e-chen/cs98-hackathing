@@ -2,7 +2,7 @@
 
 My initial idea involved utilizing browser plugins to help with the “analysis paralysis” issue many people have with streaming services, now that everyone has multiple services whether it be Hulu or Netflix or Disney+ and are often unable to effectively search through all the options.
 
-A useful tool for this endeavor would of course be developing some experience with making plugins in the first place: I haven't worked with web plugins before nor JS specifically so I thought this would be interestingto try out chrome plugins.
+A useful tool for this endeavor would of course be developing some experience with making plugins in the first place: I haven't worked with web plugins before nor JS specifically so I thought this would be interesting to try out chrome plugins.
 
 I ended up making two plugins to explore how to make them/a little of what theyre capable of, each of which can be found in it's own directory. Extension 1, when activated, opens a new tab with the first link found on the current page, gave me some experience with the json format and JS and overall structure of the plugins, and also uses jquery. Extension 2 has a page with options for selecting a color and then, when it detects that a page is connected to home.dartmouth.edu, becomes active and can change the background color when the popup button is pressed, exploring more of what the plugin side of the technology can do with working on the options page, opening popups, and comunicating between scripts.
 
