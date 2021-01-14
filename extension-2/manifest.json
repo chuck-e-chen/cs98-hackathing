@@ -1,0 +1,25 @@
+{
+  "name": "Hackathing Extension 2",
+  "version": "1.0",
+  "description": "An extension to change the color of the background on sites from home.dartmouth.edu",
+  "permissions": ["activeTab", "storage", "declarativeContent"],
+  "manifest_version": 2,
+  "page_action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "options_page": "options.html",
+  "page_action": {
+    "default_popup": "popup.html",
+    "default_icon": "two.png"
+  },
+  "icons": {
+    "16": "two.png",
+    "32": "two.png",
+    "48": "two.png",
+    "18": "two.png"
+  }
+}
